@@ -1,0 +1,36 @@
+### 1 Giải thuật và cấu trúc dữ liệu 
+**Cấu trúc dữ liệu**  : là cách lưu trữ , tổ chức dữ liệu có thứ tự, có hệ thống để dữ liệu có thể sử dụng một cách hiệu quả 
+Algorithms : Là một dãy các câu lệnh chặt chẽ và chính xác, xác định một trình tự trên một đối tượng nào đó để sau một bước hữu hạn đạt được kết quả mong muốn.
+- 1.1 *Mối quan hệ giữa cấu trúc dữ liệu và giải thuật*
+Có một mối quan hệ mật thiết , không thể nói tới cái này mà không nhắc tới cái kia. 
+**Cấu trúc dữ liệu + Giải thuật = Chương trình**
+- 1.2 Bài toán khoa học kĩ thuật 
+Xuất hiện các phép toán mới tác động trên cấu trúc ấy : Phép tạo lập, hay hủy bỏ một cấu trúc, phép truy cập  access  vào từng phần tử của cấu trúc , phép bổ sung(insertion) hoặc loại bỏ (deletion) một phần tử trên cấu trúc . 
+- 1.3 Cấu trúc dữ liệu & cấu trúc lưu trữ 
+Cách biểu diễn một cấu trúc dữ liệu trong bộ nhớ được gọi là cấu trúc lưu trữ . 
+Có thể có nhiểu cấu trúc lưu trữ khác nhau cho cùng một cấu trúc dữ liệu  
+Cũng có thể có nhiều cấu trúc dữ liệu khác nhau được thể hiện trên một cấu trúc lưu trữ . 
+- 1.4 Cấu trúc dữ liệu tiền định 
+Là cách lưu trữ , tổ chức tập dữ liệu có số lượng ấn định và có cùng kiểu . 
+- 1.5 
+Không phải các cấu trúc dữ liệu tiền đình đều có thể đáp ứng mọi yêu cầu cần thiết về cấu trúc . 
+Chấp nhận một ngôn ngữ là chấp nhận cấu trúc dữ liệu tiền đình của ngôn ngữ đó 
+- 1.6 
+Tính chất giải thuật gồm chính xác , rõ ràng , phổ dụng , khách quan , gồm số hữu hạn các bước tính toán . Phổ biến với 8 loại cấu trúc dữ liệu 
++ 1. Mảng (Array)
++Một Array – mảng là một cấu trúc với kích thước cố định, có thể giữ các item có dùng kiểu dữ liệu. Nó có thể là một mảng các số nguyên, một mảng các số thực, một mảng string hay kể cả một mảng của các mảng (mảng 2 chiều). Mảng được đánh chỉ mục, cho phép ta có thể truy cập ngẫu nhiên vào mảng.
++ 2.  Linked List 
+Một Linked list là một cấu trúc tuần tự bao gồm một chuỗi các item theo thứ tự tuyến tính được liên kết với nhau. Do đó, ta chỉ có thể truy cập tuần tự vào linked list, không thể thực hiện truy cập ngẫu nhiên. Linked list là cung cấp cho chúng ta một cấu trúc dữ liệu đơn giản và linh hoạt cho các tập hơn động
++ 3. Stacks
+Stack – ngăn xếp là một cấu trúc dạng LIFO (Last In First Out – phần tử được đưa vào sau cùng sẽ có thể được truy cập đầu tiên) được thấy thường xuyên trong rất nhiều ngôn ngữ lập trình. Cấu trúc này được đặt tên là “stack” bởi vì nó giống với hình ảnh một “stack” trong thực tế – một “stack” bát đĩa
++ 4. Queue
+Queue – hàng đợi là một cấu trúc dạng FIFO (First In First Out – phần tử được đặt ở đầu sẽ có thể được truy cập đầu tiên) được thấy thường xuyên trong rất nhiều ngôn ngữ lập trình. Cấu trúc dữ liệu này được đặt tên là “queue” bởi nó giống với hình ảnh một hàng đợi trong thực tế – một hàng người xếp hàng đợi.
++ 5. Hash table
+Hash table – bảng băm là một cấu trúc dữ liệu lưu trữ các giá trị mà mỗi giá trị có một key được liên kết với nó. Hơn nữa, hash table hỗ trợ tìm kiếm hiệu quả nếu ta biết được key của giá trị cần tìm. Do đó, nó rất hiệu quả trong việc thêm, tìm kiếm dữ liệu bất kể kích thước dữ liệu như thế nào. Phương pháp đánh địa chỉ trực tiếp sử dụng ánh xạ 1 – 1 giữa key và value khi lưu trữ trong bảng. 
++ 6. Tree
+Tree – cây là một cấu trúc dữ liệu có phân cấp, trong đó dữ liệu được tổ chức theo thứ bậc và được liên kết với nhau khi lưu trữ. Có nhiều kiểu tree đã được phát triển trong nhiều thập kỷ qua, để phù hợp với các ứng dụng khác nhau hay khắc phục những hạn chế nhất định. Một số ví dụ có thể kể tới bao gồm: cây tìm kiếm nhị phân, B-tree, treap, red-black tree, splay tree, …
++ 7. Graph
+Một graph – đồ thị là một tập hợp hữu hạn các đỉnh (nút) và đường đi giữa các đỉnh này. Kích thước của một đồ thị được tính bằng số lượng, bậc của đồ thị được tính bằng số đỉnh của nó. Hai đỉnh được gọi là liền kề nếu chúng được nối với nhau bởi cùng một đường.
+
+
+
